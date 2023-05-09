@@ -2,7 +2,7 @@ import cv2
 import os
 
 # Load the image
-img = cv2.imread('C:\\Users\\Tlxna\\Documents\\EmbeddedPyProject\\Screenshot_2023.03.07_09.04.37.225.png');
+img = cv2.imread('C:\\Users\\Tlxna\\Documents\\EmbeddedPyProject\\FaceDetection\\Screenshot_2023.03.07_09.04.37.225.png');
 
 # Load the face detection classifier
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
